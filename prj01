@@ -1,0 +1,23 @@
+# how many twin primes are bigger than 1000 but smaller than 1000000? 
+#and what is the biggest twin prime?
+import numpy as np
+import pandas as pd
+import math
+def isPrime(n):
+    for i in range(2, int(math.sqrt(n))+1):
+        if(n % i ==0):
+            return False
+    return True
+count=0
+twins=[]
+for i in range(1000,1000001):
+    flagone = isPrime(i)
+    flagtwo = isPrime(i+2)
+    if flagone == True and flagtwo == True:
+        count=count+1
+        twin=[i,i+2]
+        twins.append(twin)
+print(count)
+print(twins[-1])
+print('There are %d twin primes are bigger than 1000 but smaller than 1000000'% count)
+print('The biggest twin prime is',twins[-1])
