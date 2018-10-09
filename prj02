@@ -28,4 +28,4 @@ GAC=math.exp((r_hat-r)*T)*BSM_call_value(S0, K, 0, T, r_hat, sigma_hat)
 print('GAC price = ', GAC)
 
 output:
-('GAC price = ', 2.6695294962513088)
+('GAC price = ', 2.7329867250697175)
