@@ -1,0 +1,19 @@
+# Prj04
+# Consider the following data sets:
+# Today: Sep 27, 2018
+# Spot price: 290.68
+# Maturity: Dec 31, 2018
+# Strike: 288
+# rate: 0.02
+# Market call price: 9.23
+
+# Todo：
+# If the volatility is , what is the difference between BSM call price and market call price?
+# Compute the implied volatility.
+
+Answer to Question1: the difference between BSM call price and market call price is 10.539937820552115
+Answer to Question2: The Implied volatility is 0.118242
+
+
+The code and output:
+https://cocalc.com/share/da29708b-3958-4e93-9a73-77fa81887071/prj04.ipynb?viewer=share
